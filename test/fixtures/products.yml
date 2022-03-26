@@ -2,10 +2,20 @@
 
 one:
   name: MyString
-  info: MyText
+  description: MyText
+  category: MyString
+  weight: 1
+  url: MyText
+  available: MyString
+  container: MyString
   price: 1
 
 two:
   name: MyString
-  info: MyText
+  description: MyText
+  category: MyString
+  weight: 1
+  url: MyText
+  available: MyString
+  container: MyString
   price: 1

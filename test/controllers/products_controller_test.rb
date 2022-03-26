@@ -12,7 +12,7 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
 
   test "should create product" do
     assert_difference('Product.count') do
-      post products_url, params: { product: { info: @product.info, name: @product.name, price: @product.price } }, as: :json
+      post products_url, params: { product: { available: @product.available, category: @product.category, container: @product.container, description: @product.description, name: @product.name, price: @product.price, url: @product.url, weight: @product.weight } }, as: :json
     end
 
     assert_response 201
@@ -24,7 +24,7 @@ class ProductsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update product" do
-    patch product_url(@product), params: { product: { info: @product.info, name: @product.name, price: @product.price } }, as: :json
+    patch product_url(@product), params: { product: { available: @product.available, category: @product.category, container: @product.container, description: @product.description, name: @product.name, price: @product.price, url: @product.url, weight: @product.weight } }, as: :json
     assert_response 200
   end
 
