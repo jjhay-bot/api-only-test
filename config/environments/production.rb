@@ -112,6 +112,7 @@ Rails.application.configure do
   # config.active_record.database_resolver_context = ActiveRecord::Middleware::DatabaseSelector::Resolver::Session
 
   # cors origns
-  config.allowed_cors_origins = "https://dnd-gold.stackblitz.io"
-  # ex: config.allowed_cors_origins = "netlikuy-deploy-test.netlify.app"
+  config.allowed_cors_origins = "dnd-gold.stackblitz.io"
+  config.allowed_cors_origins = "jjhay-bot.github.io/dnd-frontend-app"
+  # ex: config.allowed_cors_origins = "netlikuy-deploy-test.netlify.app" ** front-end link without http://
 end
