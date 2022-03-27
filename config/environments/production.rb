@@ -110,4 +110,8 @@ Rails.application.configure do
   # config.active_record.database_selector = { delay: 2.seconds }
   # config.active_record.database_resolver = ActiveRecord::Middleware::DatabaseSelector::Resolver
   # config.active_record.database_resolver_context = ActiveRecord::Middleware::DatabaseSelector::Resolver::Session
+
+  # cors origns
+  config.allowed_cors_origins = "https://dnd-gold.stackblitz.io"
+  # ex: config.allowed_cors_origins = "netlikuy-deploy-test.netlify.app"
 end
