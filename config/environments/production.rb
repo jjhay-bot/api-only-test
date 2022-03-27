@@ -53,7 +53,7 @@ Rails.application.configure do
 
   # Use a real queuing backend for Active Job (and separate queues per environment).
   # config.active_job.queue_adapter     = :resque
-  # config.active_job.queue_name_prefix = "jewelry_production"
+  # config.active_job.queue_name_prefix = "api_backend_production"
 
   config.action_mailer.perform_caching = false
 
@@ -110,9 +110,4 @@ Rails.application.configure do
   # config.active_record.database_selector = { delay: 2.seconds }
   # config.active_record.database_resolver = ActiveRecord::Middleware::DatabaseSelector::Resolver
   # config.active_record.database_resolver_context = ActiveRecord::Middleware::DatabaseSelector::Resolver::Session
-
-  # cors origns
-  config.allowed_cors_origins = "dnd-gold.stackblitz.io"
-  config.allowed_cors_origins = "jjhay-bot.github.io/dnd-frontend-app"
-  # ex: config.allowed_cors_origins = "netlikuy-deploy-test.netlify.app" ** front-end link without http://
 end

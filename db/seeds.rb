@@ -10,7 +10,7 @@
   Product.create(
     {
       name: "Sample1",
-      info: "Description xxxxx....",
+      description: "Description xxxxx....",
       price: 100
     }
   )
